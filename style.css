@@ -88,7 +88,7 @@ h3{
 .moot{
 	width:100%;
 	border:1px solid #000;
-	height:7170px;
+	height:6820px;
 }
 .select{
 	 width:100%;
@@ -137,7 +137,7 @@ img{
 .pag-1{
 	  margin:10px;
 	  width:90%;
-	  height:150px;
+	  height:140px;
 }
 .pag-1 p{
 	  font-size: 15px;
@@ -161,11 +161,23 @@ img{
 .pag-2 p{
 	font-family:"Open Sans", sans-serif;
 	color: #848484;
+	font-size:15px;
 }
+
+.pag .pag-5 .pag-2 i{    
+    font-size: 48px;
+    margin-top: 0px;
+    color: #8b97b3;
+	}
 .pag-3{
 	  margin:10px;
 	  width:43%;
 	  height:200px;
+}
+.pag-3 i{
+	  font-size: 48px;
+     margin-top: 0px;
+     color: #8b97b3;
 }
 .font{
 	 font-family:"Open Sans", sans-serif;
@@ -176,6 +188,7 @@ img{
 .pag-3 p{
 	font-family:"Open Sans", sans-serif;
 	color: #848484;
+	font-size:15px;
 }
 .bar{
 	 width:100%;
@@ -227,25 +240,31 @@ img{
 .lorem{
 	  margin:40px;
 	  width:30%;
-	  border:1px solid black;
 	  height:350px;
+	  box-shadow:0 0 2px black;
+}
+.lorem i{
+	  font-size: 50px;
+     transition: 0.5s;
+     line-height: 1;
+     position: relative;
+	 margin-left:160px;
+	 margin-top:80px;
+	 color:#47aeff;
 }
 .f1{
 	 text-align:center;
 	 font-size:20px;
-	 margin-top:200px;
 	 color: #444444;
 }
 .f2{
 	text-align:center;
 	 font-size:20px;
-	 margin-top:200px;
 	 color: #444444;
 }
 .f3{
 	 text-align:center;
 	 font-size:20px;
-	 margin-top:200px;
 	 color: #444444;
 }
 .lorem p{
@@ -259,25 +278,31 @@ img{
 .sed{
 	  margin:40px;
 	  width:30%;
-	  border:1px solid black;
 	  height:350px;
+	  box-shadow:0 0 2px black;
+}
+.sed i{
+	  font-size: 32px;
+     transition: 0.5s;
+     line-height: 1;
+     position: relative;
+	 margin-left:160px;
+	 margin-top:80px;
+	 color:#47aeff;
 }
 .f4{
 	text-align:center;
 	 font-size:20px;
-	 margin-top:200px;
 	 color: #444444;
 }
 .f5{
 	text-align:center;
 	 font-size:20px;
-	 margin-top:200px;
 	 color: #444444;
 }
 .f6{
 	text-align:center;
 	 font-size:20px;
-	 margin-top:200px;
 	 color: #444444;
 }	
 .sed p{
@@ -445,15 +470,23 @@ img{
 	 font-size:16px;
 	 font-weight:700;
 }
+.bads{
+	width:90%;
+	margin:auto;
+	float:center;
+}
 .img-m{
 	display:flex;
 }
 .cto{
 	margin:36px;
 	width:43%;
-	border:1px solid black;
 	height:350px;
-	
+	box-shadow:0 0 2px black;
+	border-radius:10px;
+}
+.cto img{
+	 border-radius:10px 10px 0 0;
 }
 .f11{
 	 text-align:center;
@@ -461,6 +494,7 @@ img{
 	 font-weight:700;
 	 font-family:"Raleway", sans-serif;
 	 color:#414c64;
+	 margin:(10px,0,0,5px);
 }
 .cto p{
 	 font-size:16px;
@@ -501,34 +535,48 @@ img{
 	width:15%;
 	height:300px;
 	box-sizing:border-box;
-	border:1px solid black;
+	box-shadow:0 0 2px black;
 }
 .f13{
 	 text-align:center;
-	 font-size:28px;
+	 font-size:18px;
 	 font-weight:700;
 	 font-family:"Raleway", sans-serif;
 	 color:#414c64;
 	 background-color::#aab3c7;
-
 }
 .free p{
 	  text-align:center;
+	  line-height:23px;
 }
-	
+.sum{
+	  font-family:"Open Sans", sans-serif;
+	  font-size:16px;
+}	
 #asked{
 	width:100%;
-	height:600px;
-	border:2px solid red;
-	background-color: yellow;
+	height:700px;
+	background-color:#f7f8fa;
 	padding-top:50px;
 }
 .qustion{
 	margin-left:50px;
 	width:90%;
-	height:100px;
-	border:2px solid red;
-	background-color: white;
+	height:120px;
+}
+.f14{
+	 text-align:center;
+	 font-size:28px;
+	 font-weight:700;
+	 font-family:"Raleway", sans-serif;
+	 color:#414c64;
+}
+.qustion p{
+	  color:#aab3c7;
+	 text-align:center;
+	 font-family:"Open Sans", sans-serif;
+	 font-size:16px;
+	 font-weight:700;
 }
 .qus-1{
 	margin-left:90px;
@@ -543,16 +591,26 @@ img{
 #contect{
 	width:100%;
 	height:600px;
-	border:2px solid black;
-	background-color: red;
 	padding-top:50px;
 }
 .cum{
     margin-left:50px;
 	width:90%;
 	height:100px;
-	border:2px solid black;
-	background-color: white;
+}
+.f15{
+	 text-align:center;
+	 font-size:28px;
+	 font-weight:700;
+	 font-family:"Raleway", sans-serif;
+	 color:#414c64;
+}
+.cum p{
+	 color:#aab3c7;
+	 text-align:center;
+	 font-family:"Open Sans", sans-serif;
+	 font-size:16px;
+	 font-weight:700;
 }
 .add{ 
      display:flex;
@@ -563,7 +621,6 @@ img{
 	width:42%;
 	border:1px solid white;
 	height:400px;
-	background-color:orange;
 	box-sizing:border-box;
 }
 .names{
@@ -576,20 +633,57 @@ img{
 .adde{
 	margin-left:15px;
 	width:95%;
-	border:1px solid black;
 	background-color:white;
-	height:180px;
+	height:150px;
+	padding-top:20px;
+	box-shadow:0 0 2px black;
+}
+.adde i{
+	 font-size: 30px;
+    color: #ffc107;
+    border-radius: 50%;
+    padding: 4px;
+    border: 2px dotted #ffeeba;
+	margin-left:240px;
+}
+.f16{
+	 text-align:center;
+	 font-size:20px;
+	 font-weight:700;
+	 font-family:"Raleway", sans-serif;
+	 color:#777777;;
+}
+.adde p{
+	 text-align:center;
+	 font-family:"Open Sans", sans-serif;
+	 font-size:16px;
 }
 .addu{
 	display:flex;
 	padding-top:20px;
 }
 .adda{ 
-    margin-left:10px;
+    margin-left:15px;
 	width:46%;
-	border:1px solid black;
-	background-color:white;
-	height:180px;
+	height:170px;
+	padding-top:20px;
+	box-shadow:0 0 2px black;
+}
+.adda i{
+	font-size: 30px;
+    color: #ffc107;
+    border-radius: 50%;
+    padding: 4px;
+    border: 2px dotted #ffeeba;
+	margin-left:110px;
+}
+.adda p{
+	 text-align:center;
+	 font-family:"Open Sans", sans-serif;
+	 font-size:14px;
+}
+.lads{
+	  display:flex;
 }
 .foot{
 	 width:100%;
