@@ -1,6 +1,6 @@
 .ball{
 	width:99%;
-	height:100px;
+	height:80px;
 	position:absolute;
 	padding:0px 90px;
 	box-sizing:border-box;
@@ -8,6 +8,7 @@
 	background:rgba(45,53,69,0.7);
 	position:fixed;
 	top:0;
+	margin-top:0;
 }
 .mood{
 	width:80%;
@@ -30,6 +31,7 @@
 	margin-left:40px;
 	text-decoration:none;
 	color:white;
+	font-family:"Raleway", sans-serif;
 }
 .mean2 ul li a:hover{
 	 color:orange;
@@ -709,7 +711,7 @@ img{
         margin-left:30px;
 		width:45%;
 		box-shadow:0 0 2px black;
-		height:360px;
+		height:380px;
 }
 .lads{
 	  display:flex;
@@ -740,7 +742,7 @@ img{
 	      border-radius:4px;
 	      border:1px solid #ced4da;
 		  width:85%;
-		  height:70px;
+		  height:140px;
 }
 .button5{
 	  padding:10px 35px;
@@ -772,12 +774,29 @@ img{
 	height:300px;
 	box-sizing:border-box;
 }
+.f17 {
+	 color:#414c64;
+	font-size:28px;
+	font-family:"Raleway", sans-serif;
+}
+.foote p{
+	 	font-size:14px;
+	font-family:"Open Sans", sans-serif;
+}
 .foote-1{
 	margin:40px;
 	width:15%;
-	
 	height:300px;
 	box-sizing:border-box;
+}
+.foote-1 h4{
+	font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+	text-align:center;
+	font-family:"Raleway", sans-serif;
 }
 li{
 	list-style:none;
@@ -789,13 +808,29 @@ li{
 	line-height:35px;
 	color:#414c64;
 	font-size:14px;
+	font-family:"Open Sans", sans-serif;
+}
+.foote-1 ul li a:hover{
+	 color:orange;
 }
 .foota{
 	margin:40px;
 	width:35%;
-	
 	height:300px;
 	box-sizing:border-box;
+}
+.foota h4{
+	 font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+	font-family:"Raleway", sans-serif;
+}
+.foota p{
+	 font-size: 15px;
+	 font-family:"Open Sans", sans-serif;
+	 color:#414c64;
 }
 .foota form{
 	  margin-top: 30px;
